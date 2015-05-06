@@ -1,0 +1,343 @@
+body {
+  /*Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-navigation {
+  background-color: #1B282B; 
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.top-navigation > .content {
+  width: 850px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px; 
+  color: yellow; 
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  margin: 14px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 10.5em 0;
+  background-image: url(http://i1367.photobucket.com/albums/r792/worldofentrepreneur/photo-1428604467652-115d9d71a7f1_zpsajhx1ido.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /*Typography Declarations */
+   font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #25383b;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+.box {
+  width: 645px;
+  height: 50px; 
+  margin: 15px 350px;
+  background: #25383b;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-family: 'Brush script std', Arial, sans-serif;    
+  font-size: 25px;
+  color: #fff;
+  padding: 17px 32px 80px;
+  margin: 0 auto 60px;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+    /* Box Shadow */
+    /* Opera */
+    -o-box-shadow: 5px 5px 5px #666;
+    /* IE */
+    -ms-box-shadow: 5px 5px 5px #666;
+    /* Mozilla FireFox */
+    -moz-box-shadow: 5px 5px 5px #666;
+    /* Google Chrome */
+    -webkit-box-shadow: 5px 5px 5px #666;
+    /* Normal */
+    box-shadow: 5px 5px 5px #666;
+}
+
+.tagline {
+  line-height: 26px;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.tagline p {
+  font-size: 48px;
+  color: black;
+  padding: 0px 0px 0 40px;
+  min-height: 34px;
+  margin-bottom: 5px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 10px;
+  line-height: 18px;
+  display: block;
+  font-family: 'ColaborateThinRegular', Arial, sans-serif;
+}
+
+.minitagline {
+  padding: 0 50px 3px 40px;
+  font-size: 24px;
+  color: black;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  font-family: 'ColaborateThinRegular', Arial, sans-serif;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  margin: 50px auto;
+  width: 960px;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  color: black;
+}
+
+.btn-alt {
+  border: 2px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+.btn {
+  padding-top: 7px;
+  display: block;
+  background: no-repeat;
+  padding: 9px 5px 4px 12px;
+  height: 38px;
+  text-shadow: 1px 1px 0px #fff;
+  font-weight: normal;
+  float: right;
+  margin-top: -10px;
+}
+
+
+.content {
+  padding: 0 0.938rem;
+  margin: auto;
+  min-width: 37.5rem;
+}
+
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.cases h2 {
+  font-size: 2.50em;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+
+.cases .content {
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+  margin-bottom: -190px;
+}
+
+
+.cases .devices {
+    width: -250px;
+    display: inline-block;
+}
+
+.cases .devices > li {
+  width: 259px;
+  float: left;
+}
+
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0 1.875rem;
+} 
+
+.devices {
+  margin-bottom: 200px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: -10px;
+}
+
+
+.content-footer {
+  background-color: #1B282B;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 6em 10em;
+  color: #FFFFFF;
+}
+
+
+h1 {
+  color: #FF0000;
+  font-size: 38px;
+  font-weight: 100;
+}
+
+
+.content-footer > p,
+.social {
+  color: #FFFFFF;
+}
+
+.social li {
+  display: inline-block;
+}
