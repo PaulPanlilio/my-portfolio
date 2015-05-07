@@ -63,7 +63,7 @@ ul {
 
 .masthead {
   padding: 20.5em 0;
-  background-image: url(http://i1367.photobucket.com/albums/r792/worldofentrepreneur/background%20photo%20paulpanlilio_zpstkhhbjoc.jpg);  
+  background-image: url(//i1367.photobucket.com/albums/r792/worldofentrepreneur/background%20photo%20paulpanlilio_zpstkhhbjoc.jpg);  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -134,7 +134,7 @@ ul {
   font-size: 42px;
   color: black;
   min-height: 34px;
-  margin-bottom: 5px;
+  margin-bottom: -1px;
   margin-top: 80px;
   text-align: center;
 }
@@ -150,7 +150,6 @@ p {
   padding: 0 50px 3px 40px;
   font-size: 24px;
   color: black;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   font-family: 'ColaborateThinRegular', Arial, sans-serif;
   margin-top: 15px;
   margin-left: 250px;
@@ -158,11 +157,7 @@ p {
 }
 
 
-/*
-  ========================================
-  Grid
-  ========================================
-*/
+/* Grid */
 
 *,
 *:before,
@@ -195,11 +190,7 @@ p {
   width: 66.66%;
 }
 
-/*
-  ========================================
-  Clearfix
-  ========================================
-*/
+/* Clearfix */
 
 .group:before,
 .group:after {
@@ -214,22 +205,14 @@ p {
   *zoom: 1;
 }
 
-/*
-  ========================================
-  Typography
-  ========================================
-*/
+/* Typography */
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
 
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
+/* Buttons */
 
 .btn {
   border-radius: 5px;
@@ -371,5 +354,21 @@ h1 {
 
 h5 {
   font-size: 1rem;
+}
 
+
+@media expression {
+    /* CSS rules go here */
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 6em 10em;
+    }
 }
