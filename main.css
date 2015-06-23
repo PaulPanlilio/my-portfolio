@@ -263,7 +263,7 @@ h1, h3, h4, h5, p {
   padding: none;
   color: #1d1e21;
   text-align: center;
-  margin-bottom: -190px;
+  margin-bottom: -290px;
 }
 
 
@@ -325,6 +325,10 @@ h1 {
   color: #FFFFFF;
 }
 
+.twitter {
+  border-radius: 150px;
+}
+
 .social li {
   display: inline-block;
 }
@@ -334,7 +338,7 @@ h1 {
   overflow: auto;
   padding-bottom: 9.375rem;
   text-align: center;
-  margin-top: -15px;
+  margin-top: 95px;
   margin-bottom: 20px;
   padding: 6em 10em;
   color: #FFFFFF;
