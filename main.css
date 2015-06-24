@@ -35,7 +35,11 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans', Arial, sans-serif;
     margin-right: 70px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
 
 ul {
   list-style: none;
