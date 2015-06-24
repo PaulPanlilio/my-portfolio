@@ -48,6 +48,10 @@ ul {
 .top-navigation .links li {
   display: inline-block;
   margin-left: 25px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .top-navigation .links .active {
