@@ -226,6 +226,7 @@ h1, h3, h4, h5, p {
 
 .grid h3 {
   color: red;
+  text-shadow: 1px 1px 1px #000; 
 }
 
 
@@ -318,6 +319,7 @@ h3 {
 
 #portfolio {
   color: red;
+  text-shadow: 1px 1px 1px #000; 
 }
 
 .cases a {
