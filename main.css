@@ -5,6 +5,11 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .top-navigation {
   background-color: #1B282B; 
   top: 0;
@@ -35,7 +40,6 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans', Arial, sans-serif;
     margin-right: 70px;
-  padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -50,17 +54,16 @@ ul {
   margin-left: 25px;
   color: white;
   padding: 10px;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
 .top-navigation .links .active {
-    color: #4c5058;
+    color: #fff;
     font-weight: 500;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;
+    color: #fff;
 }
 
 .content-footer,
@@ -238,7 +241,6 @@ h1, h3, h4, h5, p {
   padding-top: 7px;
   display: block;
   background: no-repeat;
-  padding: 9px 5px 4px 12px;
   height: 38px;
   text-shadow: 1px 1px 0px #fff;
   font-weight: normal;
