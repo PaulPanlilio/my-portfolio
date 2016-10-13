@@ -8,8 +8,9 @@ body {
 .icon-bar {
     width: 100%;
     text-align: center;
-    position: fixed;
     background-color: #555;
+    top: 0;
+    left: 0;
     overflow: auto;
 }
 
