@@ -8,6 +8,7 @@ body {
 .icon-bar {
     width: 100%;
     text-align: center;
+    position: fixed;
     background-color: #555;
     overflow: auto;
 }
