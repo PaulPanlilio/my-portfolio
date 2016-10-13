@@ -9,10 +9,6 @@ body {
     width: 100%;
     text-align: center;
     background-color: #555;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 9999;
     overflow: auto;
 }
 
@@ -43,7 +39,7 @@ a {
   text-decoration: none;
   color: #fff;
 }
-/*
+
 .top-navigation {
   background-color: #1B282B; 
   top: 0;
@@ -98,7 +94,7 @@ ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #fff;
-} */
+} 
 
 .content-footer,
 .masthead-heading,
